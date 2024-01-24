@@ -22,10 +22,10 @@ public class TradeController {
     TradeService tradeService;
 
     @PostMapping(value = "/trade", produces = MediaType.APPLICATION_JSON_VALUE)
-    TradeResponseDTO processTransaction(@RequestParam("UserId") Integer userId,
-                                        @RequestParam("TradeType") String tradeType,
-                                        @RequestParam("Quantity") Integer quantity,
-                                        @RequestParam("StockId") String stockId) {
+    TradeResponseDTO processTransaction(@RequestParam("userId") Integer userId,
+                                        @RequestParam("tradeType") String tradeType,
+                                        @RequestParam("quantity") Integer quantity,
+                                        @RequestParam("stockId") String stockId) {
 
         String[] result = tradeService.performTransaction(userId, tradeType, quantity, stockId);
         return new TradeResponseDTO(result[0], result[1]);

@@ -9,7 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 public class TradingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TradingApplication.class, args);
+
+
+	SpringApplication.run(TradingApplication.class, args);
 	}
 
 }

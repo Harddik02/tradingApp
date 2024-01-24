@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9f5ccda-a71b-4ca3-9a81-5a3cf9821486" name="Changes" comment="" />
+    <list default="true" id="f9f5ccda-a71b-4ca3-9a81-5a3cf9821486" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/service/CsvTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/TradingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/TradingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/controller/TradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/controller/TradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/controller/houseKeepingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/controller/houseKeepingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/repository/StockRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/repository/StockRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/service/StockService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/portfolioapplication/service/StockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/portfolioapplication/TradingApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/portfolioapplication/TradingApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +28,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -38,10 +55,33 @@
     "Application.TradingApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.portfolioapplication.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TradingApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.portfolioapplication.TradingApplication" />
+      <module name="tradingApplication" />
+      <option name="PROGRAM_PARAMETERS" value="arg1 arg2 arg3 hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.portfolioapplication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
