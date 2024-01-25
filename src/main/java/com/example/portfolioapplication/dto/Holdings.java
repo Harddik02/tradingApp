@@ -6,10 +6,10 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Holdings {
-    String stockName;
-    String stockId;
-    Integer quantity;
-    Double buyPrice;
-    Double currentPrice;
-    Double pnl;
+    private String stockName;
+    private  String stockId;
+    private Integer quantity;
+    private Double buyPrice;
+    private Double currentPrice;
+    private Double pnl;
 }

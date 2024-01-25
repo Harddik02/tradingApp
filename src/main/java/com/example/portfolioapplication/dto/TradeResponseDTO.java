@@ -4,8 +4,8 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TradeResponseDTO {
-    String tradeStatus;
-    String transactionMessage;
+    public String tradeStatus;
+  public String transactionMessage;
 
 
 

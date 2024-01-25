@@ -12,11 +12,11 @@ import lombok.Setter;
 @Setter
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class StockDetailResponseDTO {
-    String stockId;
-    String stockName;
-    Double openPrice;
-    Double highPrice;
-    Double lowPrice;
-    Double closePrice;
-    Double settlementPrice;
+    private String stockId;
+    private String stockName;
+    private Double openPrice;
+    private Double highPrice;
+    private Double lowPrice;
+    private Double closePrice;
+    private Double settlementPrice;
 }
